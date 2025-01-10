@@ -11,11 +11,11 @@ until LocalPlayer.Character
 local UserInputService = game:service('UserInputService')
 local RunService = game:service('RunService')
 
-getgenv().Multiplier = 7
+getgenv().Multiplier = 6.5
 local SpeedEnabled = false
 
 UserInputService.InputBegan:Connect(function(input)
-    if input.KeyCode == Enum.KeyCode.Z then
+    if input.KeyCode == Enum.KeyCode.C then
         SpeedEnabled = not SpeedEnabled
         if SpeedEnabled then
             repeat
